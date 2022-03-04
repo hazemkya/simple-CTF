@@ -1,0 +1,23 @@
+{
+  "name": "make_ctf",
+  "version": "1.0.0",
+  "description": "Make a simple CTF with unique flags with a single line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazemkya/make-ctf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazemkya/make-ctf/issues"
+  },
+  "homepage": "https://github.com/hazemkya/make-ctf#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
