@@ -25,28 +25,27 @@ function clearInputError(inputElement) {
 
 document.addEventListener("DOMContentLoaded", () => {
     const loginForm = document.querySelector("#login");
-    const username = document.getElementById("username");
-    const password = document.getElementById("password");
+
 
 
     loginForm.addEventListener("submit", e => {
-        e.preventDefault();
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+        let isValid = false;
+        // alert('Username:'+ btoa(username))
+        // alert(btoa(password))
+        if(btoa(username) === "YWRtaW5fdXNlcl8zNzg0ODc=" && btoa(password) === "U3VwZXJTZWN1cmVfcGFzc3dvcmQzNzIzNDk="){    //validated the input locally
+            isValid = true  //send it to the server to validate then redirect
+        }
 
-        // if(username.value == "hello" && password.value == "hi"){    //validated the input locally
-        //     app.post('/', (req,res) => {
-        //         const {username, password} = req.body;
-        //         res.send(req_username, req_password);
-            
-        //     })
-            
-        //     alert('hey you')        //send it to the server to validate then redirect
-        // }
-        // else {
-        //     setFormMessage(loginForm, "error", "Invalid username/password");
-        //     return false;
-        // }
-
-        setFormMessage(loginForm, "error", "Invalid username/password");
+        if(isValid){
+            return true;
+        }
+        else{
+            e.preventDefault();
+            setFormMessage(loginForm, "error", "Invalid username/password");
+            return false
+        }
     });
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
