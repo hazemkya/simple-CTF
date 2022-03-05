@@ -21,4 +21,6 @@ const task2Router = require('./routes/task2-Sjioew341')
 
 app.use('/task2-Sjioew341', task2Router)
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000, ()=>{
+    console.log('Server started...')
+})
