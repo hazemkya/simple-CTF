@@ -1,10 +1,3 @@
-// const bodyParser = require('body-parser');
-// const express = require('express');
-
-// let app = express();
-// app.use(bodyParser.urlencoded({extended: true}));
-// app.use(bodyParser.json);
-
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
 
@@ -32,31 +25,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
         let isValid = false;
-        // alert('Username:'+ btoa(username))
-        // alert(btoa(password))
         if(btoa(username) === "YWRtaW5fdXNlcl8zNzg0ODc=" && btoa(password) === "U3VwZXJTZWN1cmVfcGFzc3dvcmQzNzIzNDk="){    //validated the input locally
-            isValid = true  //send it to the server to validate then redirect
+            isValid = true 
         }
 
-        if(isValid){
-            return true;
-        }
-        else{
+        if(!isValid){
             e.preventDefault();
             setFormMessage(loginForm, "error", "Invalid username/password");
             return false
         }
-    });
-
-    document.querySelectorAll(".form__input").forEach(inputElement => {
-        inputElement.addEventListener("blur", e => {
-            if (e.target.id === "signupUsername" && e.target.value.length > 0 && e.target.value.length < 10) {
-                setInputError(inputElement, "Username must be at least 10 characters in length");
-            }
-        });
-
-        inputElement.addEventListener("input", e => {
-            clearInputError(inputElement);
-        });
+        else return true;
     });
 });
