@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const username = document.getElementById("username").value;
         const password = document.getElementById("password").value;
         let isValid = false;
-        if(btoa(username) === "YWRtaW5fdXNlcl8zNzg0ODc=" && btoa(password) === "U3VwZXJTZWN1cmVfcGFzc3dvcmQzNzIzNDk="){    //validated the input locally
-            isValid = true 
+        if (btoa(username) === "YWRtaW5fdXNlcl8zNzg0ODc=" && btoa(password) === "U3VwZXJTZWN1cmVfcGFzc3dvcmQzNzIzNDk=") {
+            isValid = true
         }
 
-        if(!isValid){
+        if (!isValid) {
             e.preventDefault();
             setFormMessage(loginForm, "error", "Invalid username/password");
             return false
