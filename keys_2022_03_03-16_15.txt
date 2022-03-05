@@ -1,2 +1,0 @@
-flag1: Flag{YIrg4QgLasaHd9NzG9DTG6su}
-flag2: Flag{OhYfY8CZvFIHYshya9GSJB29}
