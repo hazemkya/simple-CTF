@@ -1,0 +1,6 @@
+creds={
+		username: 'admin_user_378487',
+  		password: 'SuperSecure_password372349'
+		}
+
+flag{XOhzyHpTOz6sNkhF}

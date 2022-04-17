@@ -1,0 +1,2 @@
+link = /task2-Sjioew341
+flag{TyUR7Vxks5q9W0Bn}

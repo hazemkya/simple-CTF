@@ -1,0 +1,40 @@
+Hello,
+
+good job, you've solved the first peace of the puzzle,
+this is a capture the flag (CTF) challenge, what is a CTF?
+
+flags will be scattered though out this challenge, the first to capture the flag will get a 3 bonus marks per flag, flags should be submitted to Anon_CSC@protonmail.com, with the student name and ID, there is a total of 3 FLAGS that are waiting to be collected.
+
+this challenge will be open until (April 1), note that ONLY the first to submit the FLAG will get the bonus.
+
+Flags are hidden using this format: flag{this-is-a-flag}
+
+flags can be hidden anywhere, look carefully!
+
+LAST THING, since we will be contacting anonymously, I will be signing every message, it's highly recommended to verify the signature.
+
+Start here: https://agile-basin-77505.herokuapp.com
+
+THE GAME IS ON!
+GOOD LUCK!
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: User-ID:	Anon
+Comment: Created:	3/5/2022 4:48 PM
+Comment: Expires:	3/5/2024 12:00 PM
+Comment: Type:	255-bit EdDSA (secret key available)
+Comment: Usage:	Signing, Encryption, Certifying User-IDs
+Comment: Fingerprint:	D78FD8C1BD61DDAEAD23F8C5CE99F34C294119B0
+
+
+mDMEYiNqHhYJKwYBBAHaRw8BAQdA/wlAP3UHsJrA58vaFzm3kX3djGnlWeBm8WEL
+lKA4W3W0BEFub26ImgQTFgoAQhYhBNeP2MG9Yd2urSP4xc6Z80wpQRmwBQJiI2oe
+AhsDBQkDw3TyBQsJCAcCAyICAQYVCgkICwIEFgIDAQIeBwIXgAAKCRDOmfNMKUEZ
+sEIOAQC60dZsl6d6b+tVFS6mhoqrh3LHx2NoCobKZvuRyy0/FQEA68Z+09u85xh9
+WsrXSIS9SwmTDxuBd8JImkz7raniBwm4OARiI2oeEgorBgEEAZdVAQUBAQdAB0LV
+eEBia7iJQWNFBNBaBdiXIixD0GT+zMJjQE4KBAUDAQgHiH4EGBYKACYWIQTXj9jB
+vWHdrq0j+MXOmfNMKUEZsAUCYiNqHgIbDAUJA8N08gAKCRDOmfNMKUEZsIQGAQDd
+w6tiHvU/jzezg5Kyj6Ckh6mpHjAWOokwvoT8E8CAXgEAvTqljgdEcdsfHEksWE1v
+rBL2vKn7iz65rUZha2nEMAk=
+=9puO
+-----END PGP PUBLIC KEY BLOCK-----
