@@ -21,7 +21,7 @@
   "homepage": "https://github.com/hazemkya/make-ctf#readme",
   "dependencies": {
     "body-parser": "^1.19.2",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.10",
     "express": "^4.17.3"
   },
   "devDependencies": {
