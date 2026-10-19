@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/hazemkya/make-ctf#readme",
   "dependencies": {
-    "body-parser": "^1.19.2",
+    "body-parser": "^1.20.8",
     "ejs": "^3.1.6",
-    "express": "^4.17.3"
+    "express": "^4.22.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
